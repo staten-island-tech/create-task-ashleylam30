@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+font-family: fantasy;
   line-height: 1.5;
   font-weight: 400;
 
@@ -31,17 +31,10 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  text-align: center;
-}
+
+
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 .logo {
@@ -84,15 +77,20 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme:light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #307abb;
+    background-color: black
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: black
   }
 }
+h1, h2{
+  margin-bottom: 50%;
+ margin-left: 15%;
+}
+
