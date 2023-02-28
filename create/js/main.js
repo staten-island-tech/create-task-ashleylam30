@@ -19,7 +19,8 @@ document.querySelector("#app").innerHTML = `
     </p>
   </div>
 `;
-const url = " https://stats.nba.com/stats/commonallplayers";
+/* const url = " https://stats.nba.com/stats/commonallplayers";
 const response = await fetch(url);
 console.log(response);
 setupCounter(document.querySelector("#counter"));
+ */
