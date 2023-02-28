@@ -1,4 +1,4 @@
-:root {
+/* :root {
 font-family: fantasy;
   line-height: 1.5;
   font-weight: 400;
@@ -84,13 +84,18 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
-  }
+  } */
   button {
-    background-color: black
+    align-items: flex-start;
+    padding-right: 10%;
+    background-color: rgb(255, 244, 244)
+    
+    
   }
 }
 h1, h2{
   margin-bottom: 50%;
  margin-left: 15%;
 }
+
 

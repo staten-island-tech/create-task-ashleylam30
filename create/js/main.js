@@ -1,6 +1,7 @@
 import "./style.css";
 import javascriptLogo from "./javascript.svg";
-import { setupCounter } from "../counter.js";
+import { array } from "./array.js";
+import { DOM } from "js/DOM.js";
 
 document.querySelector("#app").innerHTML = `
   <div>
@@ -19,8 +20,3 @@ document.querySelector("#app").innerHTML = `
     </p>
   </div>
 `;
-/* const url = " https://stats.nba.com/stats/commonallplayers";
-const response = await fetch(url);
-console.log(response);
-setupCounter(document.querySelector("#counter"));
- */
