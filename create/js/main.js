@@ -1,22 +1,27 @@
-import "./style.css";
-import javascriptLogo from "./javascript.svg";
-import { array } from "./array.js";
-import { DOM } from "js/DOM.js";
+import "../styles/style.css";
+import { array } from "../js/array";
+import { DOM } from "../js/DOM";
 
-document.querySelector("#app").innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`;
+DOM.dunkbtn.addEventListener("click", function () {
+  DOM.mainpage.innerHTML = "";
+  DunkArray();
+});
+
+function DunkArray() {
+  array
+    .filter((array) => array.Type === "WorstDunk")
+    .forEach((array) =>
+      DOM.mainpage.insertAdjacentHTML(
+        "beforeend",
+        `
+
+<div class="child">
+<img class="img" src="${array.IMG}"><img>
+<h1 class="name">${array.Name}</h1>
+<h2 class="rank">${array.Type}</h2>
+</div>
+
+`
+      )
+    );
+}
