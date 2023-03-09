@@ -3,7 +3,7 @@ const DOM = {
   dunkbtn: document.getElementById("worstdunk"),
   shooterbtn: document.getElementById("worstshooter"),
   flopbtn: document.getElementById("biggestflop"),
-  worstdressed: document.getElementById("worstdressed"),
+  worstdressedbtn: document.getElementById("worstdressed"),
   changetheme: document.getElementById("themebtn"),
   mainpage: document.getElementById("mainpage"),
 };

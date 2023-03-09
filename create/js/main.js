@@ -25,3 +25,26 @@ function DunkArray() {
       )
     );
 }
+DOM.worstdressedbtn.addEventListener("click", function () {
+  DOM.mainpage.innerHTML = "";
+  StyleArray();
+});
+
+function StyleArray() {
+  array
+    .filter((array) => array.Type === "worstdressed")
+    .forEach((array) =>
+      DOM.mainpage.insertAdjacentHTML(
+        "beforeend",
+        `
+
+<div class="child">
+<img class="img" src="${array.IMG}"><img>
+<h1 class="name">${array.Name}</h1>
+<h2 class="rank">${array.Type}</h2>
+</div>
+
+`
+      )
+    );
+}

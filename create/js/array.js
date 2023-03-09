@@ -24,6 +24,20 @@ const array = [
     Type: "BiggestFlop",
     IMG: "https://th.bing.com/th/id/R.4e8a26e1f7a0686e086d90bf48c705ea?rik=dCBxF9wG%2b2uLFw&riu=http%3a%2f%2fstatic4.businessinsider.com%2fimage%2f52d6c039eab8ea8215c53456%2fnew-lebroning-meme-makes-fun-of-lebron-james-flopping.jpg&ehk=iavlz8qy6Wi%2bP0gV3fXsVJXtJZ%2b6YZx7wz0VpeuXO4c%3d&risl=&pid=ImgRaw&r=0",
   },
-  {},
+  {
+    Name: "Steve Nash",
+    Type: "WorstDunk",
+    IMG: "https://th.bing.com/th/id/R.80a4e466d43e6b63b8278adb45fe9790?rik=XJhiIRoiclYZyg&riu=http%3a%2f%2fa.espncdn.com%2fphoto%2f2014%2f1024%2fnba_a_nash12_600x400.jpg&ehk=PIqCLPZ4x6RgYZAge1Nezc9TXSNPoTiAKUVc0o%2bEs5I%3d&risl=&pid=ImgRaw&r=0",
+  },
+  {
+    Name: "Isaiah Thomas",
+    Type: "WorstDunk",
+    IMG: "https://cdn.vox-cdn.com/thumbor/flCBmPhnsmGteGtNpLCsBFr6MBQ=/0x0:2672x4120/620x413/filters:focal(1017x937:1443x1363)/cdn.vox-cdn.com/uploads/chorus_image/image/52569253/162206517.0.jpeg",
+  },
+  {
+    Name: "James Harden",
+    Type: "Please Brace Yourself..",
+    IMG: "https://th.bing.com/th/id/OIP.pQOaSo1WSGn1K6F8o7DeeQAAAA?pid=ImgDet&rs=1",
+  },
 ];
 export { array };
