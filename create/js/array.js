@@ -2,7 +2,7 @@ const array = [
   {
     Name: "Ben Simmons",
     Type: "WorstShooter",
-    IMG: "https://wp.clutchpoints.com/wp-content/uploads/2021/08/download-5-6.jpg",
+    IMG: "https://qph.cf2.quoracdn.net/main-qimg-1a6102c26e70646771d9636842c42444-lq",
   },
   {
     Name: "Anthony Davis",
